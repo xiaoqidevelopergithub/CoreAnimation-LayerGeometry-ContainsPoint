@@ -27,6 +27,11 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.2441380205" blue="0.22994420600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w8K-Tc-3fB">
+                                        <rect key="frame" x="100" y="60" width="87" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.66666668650000005" green="0.43473051839999999" blue="0.4123480075" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.028871255150353936" green="1" blue="0.069531584328725415" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -37,6 +42,7 @@
                     <connections>
                         <outlet property="layerView" destination="sZ2-PK-jby" id="rKE-8S-gIy"/>
                         <outlet property="subLayerView" destination="BiK-j9-YbG" id="z6Y-2E-bV4"/>
+                        <outlet property="subTopLayerView" destination="w8K-Tc-3fB" id="EJY-1A-6Zf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

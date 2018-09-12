@@ -13,6 +13,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *layerView;
 @property (weak, nonatomic) IBOutlet UIView *subLayerView;
+@property (weak, nonatomic) IBOutlet UIView *subTopLayerView;
 
 @end
 
@@ -21,6 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 这里 zPosition 指的是统一层级的图层，并不是子父子图层比较。
+    self.subLayerView.layer.zPosition = 1.0;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
